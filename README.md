@@ -1,6 +1,6 @@
 # Ca11y: Accessible Recruitment Solutions for Individuals with Cognitive Challenges
 
-![Ca11y Logo](https://www.ca11y.net/images/ca11y.svg)
+![Ca11y Logo](https://raw.githubusercontent.com/garethslinn/ca11y-project/refs/heads/main/images/ca11y_light.svg)
 
 ## Table of Contents
 
