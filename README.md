@@ -294,7 +294,7 @@ We welcome contributions from the community to enhance **Ca11y**. Whether it's r
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [License](LICENSE.md).
 
 ---
 
