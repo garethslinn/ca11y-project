@@ -41,7 +41,7 @@
 <div class="container">
   <!-- Sidebar -->
   <aside class="nav" aria-label="Table of Contents">
-    <h3>Table of Contents</h3>
+    <h3>Table of Contents - main</h3>
     <div id="nav"></div>
   </aside>
 
@@ -82,36 +82,7 @@
 
 <!-- Main JavaScript File -->
 <script src="./scripts/main.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    // Back to Top Button Functionality
-    const backToTopBtn = document.getElementById('back-to-top');
+<script src="./scripts/recruitment.js"></script>
 
-    if (backToTopBtn) {
-
-      window.addEventListener('scroll', () => {
-        if (window.scrollY > 200) {
-          backToTopBtn.classList.add('show');
-          console.log('Added show class');
-        } else {
-          backToTopBtn.classList.remove('show');
-          console.log('Removed show class');
-        }
-      });
-
-      // Scroll to top smoothly when the button is clicked
-      backToTopBtn.addEventListener('click', () => {
-        console.log('Back to Top button clicked');
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
-      });
-    } else {
-      console.warn('Back to Top button with id "back-to-top" not found.');
-    }
-
-  });
-</script>
 </body>
 </html>

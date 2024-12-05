@@ -1,47 +1,26 @@
+function loadComponent(url, placeholderId) {
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
+            }
+            return response.text();
+        })
+        .then(data => {
+            const placeholder = document.getElementById(placeholderId);
+            if (placeholder) {
+                placeholder.innerHTML = data;
+            } else {
+                console.warn(`Placeholder element with id "${placeholderId}" not found.`);
+            }
+        })
+        .catch(error => {
+            console.error('Error loading component:', error);
+        });
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
-
-    // Load Components
-    loadComponent('components/header.html', 'header');
-    loadComponent('components/footer.html', 'footer'); // Ensure <footer id="footer"></footer> exists
-    loadComponent('components/nav.html', 'nav');
-    loadComponent('components/sections/abstract.html', 'abstract');
-    loadComponent('components/sections/uniqueBenefits.html', 'unique-benefits');
-    loadComponent('components/sections/definitions.html', 'definitions');
-    loadComponent('components/sections/introduction.html', 'introduction');
-    loadComponent('components/sections/jobSpec.html', 'jobSpec');
-    loadComponent('components/sections/applicationProcess.html', 'applicationProcess');
-    loadComponent('components/sections/interviewProcess.html', 'interviewProcess');
-    loadComponent('components/sections/assessment.html', 'assessment');
-    loadComponent('components/sections/postInterview.html', 'postInterview');
-    loadComponent('components/sections/continuousImprovement.html', 'continuousImprovement');
-    loadComponent('components/sections/resourcesTraining.html', 'resourcesTraining');
-    loadComponent('components/sections/legalConsiderations.html', 'legalConsiderations');
-
-    loadComponent('components/sections/appendix.html', 'appendix');
-    loadComponent('components/sections/glossary.html', 'glossary');
-    // loadComponent('components/controls.html', 'controls'); // Uncomment if needed
-
-    // Function to load an HTML component
-    function loadComponent(url, placeholderId) {
-        fetch(url)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
-                }
-                return response.text();
-            })
-            .then(data => {
-                const placeholder = document.getElementById(placeholderId);
-                if (placeholder) {
-                    placeholder.innerHTML = data;
-                } else {
-                    console.warn(`Placeholder element with id "${placeholderId}" not found.`);
-                }
-            })
-            .catch(error => {
-                console.error('Error loading component:', error);
-            });
-    }
 
     // // Back to Top Button Functionality
     // const backToTopBtn = document.getElementById('back-to-top');
@@ -192,4 +171,5 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
 });
