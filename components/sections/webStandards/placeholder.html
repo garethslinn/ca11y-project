@@ -19,7 +19,7 @@
     <h2>General UI Design</h2>
     <ul class="numbers">
         <li>Maintain a consistent layout, style, and navigation across the application.</li>
-        <li>Avoid unnecessary complexity; prioritize minimalism in design and content.</li>
+        <li>Avoid unnecessary complexity; prioritise minimalism in design and content.</li>
         <li>Ensure interactive elements behave as expected (e.g., links open new pages, buttons perform actions).</li>
         <li>Allow users to adjust fonts, colors, spacing, and layouts.</li>
         <li>Implement undo, redo, and confirmation features to recover from mistakes.</li>
@@ -29,12 +29,13 @@
 <section id="navigation">
     <h2>Navigation</h2>
     <ul class="numbers">
-        <li>Organize menus logically with clear labels.</li>
+        <li>Organise menus logically with clear labels.</li>
         <li>Provide breadcrumb navigation to help users track their location.</li>
         <li>Include a prominent and forgiving search bar with suggestions.</li>
         <li>Ensure all navigation can be controlled via keyboard.</li>
         <li>Move focus to the main content or modal dialogs when navigating.</li>
         <li>Clearly indicate the current page or menu item.</li>
+        <li>Include skiplinks.</li>
     </ul>
 </section>
 
@@ -69,7 +70,7 @@
         <li>Design buttons large enough to click with adequate spacing between them.</li>
         <li>Include visual indicators for hover and focus interactions.</li>
         <li>Ensure all buttons can be activated via keyboard (e.g., Enter or Space).</li>
-        <li>Minimize the number of interactive elements on a single page to reduce cognitive load.</li>
+        <li>Minimise the number of interactive elements on a single page to reduce cognitive load.</li>
     </ul>
 </section>
 
@@ -151,10 +152,10 @@
         <li>Provide clear and consistent visual cues (e.g., icons, colors, or subtle animations) to help users understand emotional context, but avoid overstimulation or rapid changes.</li>
         <li>Use neutral, straightforward language in messages and instructions to reduce ambiguity and prevent misinterpretation of tone.</li>
         <li>Avoid sarcasm, idioms, or overly abstract expressions that may be challenging for users with autism or other neurodiverse conditions to interpret.</li>
-        <li>Ensure error messages, warnings, and notifications are non-judgmental and focus on solutions rather than emphasizing mistakes or failures (e.g., "Let's fix this together!" instead of "You did it wrong").</li>
+        <li>Ensure error messages, warnings, and notifications are non-judgmental and focus on solutions rather than emphasising mistakes or failures (e.g., "Let's fix this together!" instead of "You did it wrong").</li>
         <li>Use reassuring elements like progress indicators, success confirmations, or status messages to reduce anxiety and help users feel in control of their experience.</li>
-        <li>Offer customizable visual and auditory feedback (e.g., calming tones or colors) to suit user preferences and avoid overwhelming sensory inputs.</li>
-        <li>Provide a way to disable or minimize emotional indicators if users prefer a more neutral or minimalist interface.</li>
+        <li>Offer customisable visual and auditory feedback (e.g., calming tones or colors) to suit user preferences and avoid overwhelming sensory inputs.</li>
+        <li>Provide a way to disable or minimise emotional indicators if users prefer a more neutral or minimalist interface.</li>
         <li>Ensure consistency in tone and emotional cues throughout the interface to create a predictable and safe environment for neurodiverse users.</li>
         <li>In interactive elements, use simple, clear affordances that convey what actions are available and how they will affect the user emotionally (e.g., “Delete this item” with a gentle confirmation prompt).</li>
         <li>Include content warnings or indicators for emotionally triggering content (e.g., flashing elements, sudden sounds, or sensitive topics).</li>
@@ -175,7 +176,7 @@
         <li>Use consistent color coding for similar actions or statuses across the interface to create familiarity (e.g., green for success, red for errors).</li>
         <li>Select calming, muted colors to reduce visual overstimulation, particularly for users with sensory sensitivities or neurological conditions.</li>
         <li>Avoid harsh, overly bright color combinations or gradients that can cause discomfort or eye strain.</li>
-        <li>Provide an option for users to customize the color palette, allowing for personalized preferences to support neurological conditions like ADHD or autism.</li>
+        <li>Provide an option for users to customise the color palette, allowing for personalised preferences to support neurological conditions like ADHD or autism.</li>
         <li>Design with accessibility-friendly colors:
             <ul class="numbers">
                 <li>Light, neutral backgrounds (e.g., off-white or pastel shades) paired with dark text.</li>
@@ -224,7 +225,7 @@
 <section id="performance-responsiveness">
     <h2>Performance and Responsiveness</h2>
     <ul class="numbers">
-        <li>Optimize for quick load times to reduce frustration.</li>
+        <li>Optimise for quick load times to reduce frustration.</li>
         <li>Ensure the UI adapts seamlessly to different screen sizes.</li>
         <li>Ensure the UI functions in older browsers or low-bandwidth conditions.</li>
     </ul>
@@ -256,11 +257,11 @@
             <li>Define a meaningful and unique <strong>TITLE</strong> for the page to improve SEO and user recognition.</li>
             <li>Use the <strong>viewport</strong> meta tag to ensure the page is responsive: <strong>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</strong>.</li>
         </ul>
-        <li>Organize the document with semantic elements like <strong>HEADER</strong>, <strong>MAIN</strong>, and <strong>FOOTER</strong> to create a clear structure for assistive technologies.</li>
+        <li>Organise the document with semantic elements like <strong>HEADER</strong>, <strong>MAIN</strong>, and <strong>FOOTER</strong> to create a clear structure for assistive technologies.</li>
         <li>Ensure the <strong>BODY</strong> element contains all visible content and interactive elements, avoiding hidden content unless it is accessible and purposeful.</li>
         <li>Include the proper <strong>LANG</strong> attribute for multilingual documents to reflect language changes within the content.</li>
         <li>Be mindful of the <strong>tabbing order</strong> to create a logical navigation experience for keyboard users.</li>
-        <li>Minimize the use of <strong>inline styles</strong> and JavaScript in the document. Use external files for better maintainability and performance.</li>
+        <li>Minimise the use of <strong>inline styles</strong> and JavaScript in the document. Use external files for better maintainability and performance.</li>
         <li>Provide fallback content for browsers or devices that do not support certain features, such as modern JavaScript or media elements.</li>
         <li>Validate the HTML document to ensure compliance with standards and identify potential accessibility issues using tools like the W3C Markup Validator.</li>
     </ul>
@@ -322,7 +323,7 @@
         <li>Ensure that any text within the SVG is legible, resizable, and accessible to screen readers.</li>
         <li>Use <strong>role="img"</strong> or other ARIA roles sparingly and only if they enhance understanding for assistive technology users.</li>
         <li>Include sufficient contrast between elements for users with low vision or color blindness.</li>
-        <li>Optimize the SVG for performance by minimizing file size using tools like SVGO or similar compressors.</li>
+        <li>Optimise the SVG for performance by minimizing file size using tools like SVGO or similar compressors.</li>
         <li>Avoid excessive animation within the SVG, or provide a way to pause or stop it, to accommodate users with motion sensitivities.</li>
         <li>Document complex interactions, such as clicking or dragging within the SVG, with clear instructions or alternative controls.</li>
     </ul>
@@ -374,14 +375,14 @@
     <h2>Icons</h2>
     <ul class="numbers">
         <li>Pair icons with descriptive text or tooltips to support users with cognitive or psychological conditions who may not understand the visual representation alone.</li>
-        <li>Use clear, universally recognized icons to minimize ambiguity and reduce the cognitive load (e.g., a magnifying glass for search or a house for home).</li>
+        <li>Use clear, universally recognized icons to minimise ambiguity and reduce the cognitive load (e.g., a magnifying glass for search or a house for home).</li>
         <li>Provide accessible text alternatives for all icons using attributes like <strong>aria-label</strong>, <strong>aria-labelledby</strong>, or <strong>title</strong>.</li>
         <li>Ensure interactive icons (e.g., buttons or toggles) are fully keyboard-accessible and compatible with assistive technologies such as screen readers.</li>
         <li>Use sufficient size (typically at least 24px by 24px) and spacing between icons to accommodate users with motor impairments or attention challenges.</li>
         <li>Design icons with high-contrast colors and distinguishable shapes to assist users with low vision or color blindness.</li>
         <li>Avoid relying solely on color to convey meaning; include text labels or additional visual indicators for clarity.</li>
         <li>Keep icon animations subtle to prevent distraction or overstimulation, and allow users to disable animations via system settings (e.g., <strong>@media (prefers-reduced-motion: reduce)</strong>).</li>
-        <li>Optimize icons for performance by using vector formats like SVG to ensure scalability and clarity at all sizes.</li>
+        <li>Optimise icons for performance by using vector formats like SVG to ensure scalability and clarity at all sizes.</li>
         <li>Ensure icons that represent actions or states (e.g., play/pause, open/close) are intuitive and follow common design patterns to reduce cognitive strain.</li>
         <li>Be mindful of the cultural context of icons to ensure they are universally understood (e.g., a mailbox for email may differ in perception globally).</li>
         <li>Test icons with users who have cognitive, neurological, or psychological conditions to ensure clarity, usability, and accessibility.</li>
@@ -394,9 +395,6 @@
         </li>
     </ul>
 </section>
-
-
-
 
 <section id="headings">
     <h2>Headings</h2>
@@ -463,7 +461,7 @@
     <ul class="numbers">
         <li>Use <strong>IMG</strong> with descriptive <strong>ALT</strong> attributes for non-decorative images.</li>
         <li>Provide captions using <strong>FIGCAPTION</strong> within a <strong>FIGURE</strong> for contextual relevance.</li>
-        <li>Ensure images are responsive and optimized for faster loading.</li>
+        <li>Ensure images are responsive and optimised for faster loading.</li>
     </ul>
 </section>
 
@@ -485,7 +483,7 @@
     </ul>
 </section>
 
-<section id="navigation">
+<section id="navigation2">
     <h2>Navigation</h2>
     <ul class="numbers">
         <li>Use <strong>NAV</strong> to group navigation links semantically.</li>
@@ -524,3 +522,56 @@
         <li>Test the <strong>MAIN</strong> element with assistive technologies to ensure it is correctly identified and prioritized.</li>
     </ul>
 </section>
+
+<section id="modals">
+    <h2>Accessibility for Modals</h2>
+    <ul class="numbers">
+        <li><strong>Keyboard Navigation</strong>: Ensure all modal content is accessible via keyboard, with a clear and logical tab order.</li>
+        <li><strong>Focus Management</strong>: Move focus to the modal when it opens and return it to the triggering element when the modal closes.</li>
+        <li><strong>Focus Trap</strong>: Prevent users from navigating outside the modal while it is open by trapping focus within the modal.</li>
+        <li><strong>Clear Close Options</strong>: Provide a visible and accessible close button with a clear label (e.g., "Close" instead of "X"), and allow the modal to close via the Escape key.</li>
+        <li><strong>Descriptive ARIA Roles</strong>: Use <strong>role="dialog"</strong> or <strong>role="alertdialog"</strong> with <strong>aria-labelledby</strong> and <strong>aria-describedby</strong> to describe the modal's purpose and content.</li>
+        <li><strong>Non-Intrusive Opening</strong>: Avoid automatically opening modals without user interaction, as this can disorient users with cognitive impairments or attention challenges.</li>
+        <li><strong>Provide Clear Context</strong>: Ensure the modal contains a descriptive heading and concise text explaining its purpose to avoid confusion.</li>
+        <li><strong>Minimise Cognitive Load</strong>: Keep modal content focused and straightforward, avoiding excessive or unrelated information.</li>
+        <li><strong>Responsive Design</strong>: Ensure modals scale properly on smaller screens and do not obstruct critical content or controls.</li>
+        <li><strong>Accessible Dismissal</strong>: Avoid requiring precise interactions (e.g., clicking outside the modal) for dismissal, as they can be difficult for users with motor impairments.</li>
+        <li><strong>Subtle Animations</strong>: Use calm and brief animations for opening/closing modals, ensuring they respect user preferences for reduced motion (e.g., <strong>@media (prefers-reduced-motion: reduce)</strong>).</li>
+        <li><strong>Provide Alternative Actions</strong>: Include alternate ways to access modal content (e.g., linking to a standalone page) for users who may struggle with the modal format.</li>
+        <li><strong>Test with Assistive Technologies</strong>: Validate modals with screen readers, voice controls, and keyboard navigation to ensure compatibility and ease of use.</li>
+        <li><strong>High Contrast</strong>: Ensure text and interactive elements within the modal have sufficient contrast against the background for readability.</li>
+        <li><strong>Error and Confirmation Messages</strong>: For modals displaying errors or confirmations, use calm, solution-oriented language to avoid triggering stress or anxiety.</li>
+        <li><strong>Clear and Predictable Design</strong>: Avoid overly complex modal designs, ensuring users can quickly understand how to interact with it.</li>
+        <li><strong>Background Dim</strong>: Dim the background behind the modal to help users focus on its content, ensuring sufficient contrast between the modal and background.</li>
+        <li><strong>Limit Time Pressure</strong>: Avoid time-limited modals; if necessary, provide clear countdowns and options to extend time or dismiss the modal safely.</li>
+        <li><strong>Test for Cognitive Accessibility</strong>: Regularly test modals with users who have cognitive impairments to ensure clarity, ease of use, and reduced cognitive load.</li>
+    </ul>
+</section>
+
+
+<section id="avoid-elements-techniques">
+    <h2>Some Elements and Techniques to Avoid - this is not a checklist</h2>
+    <ul class="numbers">
+        <li><strong>Flashing or Strobing Elements</strong>: Avoid animations or effects with flashing or strobing lights, as they can trigger seizures in users with photosensitivity or epilepsy.</li>
+        <li><strong>Overuse of Decorative Fonts</strong>: Avoid using overly decorative, cursive, or condensed fonts, as they can hinder readability, especially for users with dyslexia or cognitive impairments.</li>
+        <li><strong>Color-Only Indicators</strong>: Do not rely solely on color to convey meaning (e.g., red for errors or green for success), as this excludes users with color blindness or low vision.</li>
+        <li><strong>Auto-Playing Media</strong>: Avoid automatically playing audio or video content, as it can overwhelm users or disrupt assistive technology like screen readers.</li>
+        <li><strong>Justified Text</strong>: Avoid fully justified text, which creates uneven spacing between words and can be difficult to read for users with dyslexia or visual impairments.</li>
+        <li><strong>Long Dropdown Menus</strong>: Avoid long, complex dropdowns; instead, use typeahead inputs or categorised menus to simplify navigation.</li>
+        <li><strong>All-Caps Text</strong>: Avoid using all capital letters for large blocks of text, as it is harder to read and can increase cognitive load.</li>
+        <li><strong>Time-Limited Interactions</strong>: Avoid strict time limits for tasks like form completion or interaction, as this can cause anxiety and exclude users who need more time.</li>
+        <li><strong>Hidden Content Without Explanation</strong>: Do not hide content or interactive elements unless clearly labeled or accessible via alternative methods (e.g., a screen reader or "show more" buttons).</li>
+        <li><strong>Complex Navigational Structures</strong>: Avoid overly complex or nested navigation menus that make it hard for users to locate content, especially for those with cognitive impairments.</li>
+        <li><strong>Hover-Only Interactions</strong>: Avoid hover-only states for critical interactions, as they exclude keyboard and touch-screen users.</li>
+        <li><strong>Small Click Targets</strong>: Avoid small buttons, links, or icons that are difficult to tap or click, especially for users with motor impairments.</li>
+        <li><strong>Excessive Animations</strong>: Avoid excessive or unnecessary animations that can distract users or trigger sensory discomfort for those with neurological conditions like autism or ADHD.</li>
+        <li><strong>Unclear Error Messages</strong>: Avoid vague or generic error messages like "Error occurred" without explaining the issue or how to fix it.</li>
+        <li><strong>Inaccessible Modals and Popups</strong>: Avoid modals that do not trap focus or provide a clear way to close them, as they can confuse or block users relying on assistive technology.</li>
+        <li><strong>Fixed Font Sizes</strong>: Avoid using fixed pixel-based font sizes that prevent users from resizing text to suit their needs.</li>
+        <li><strong>Low Contrast</strong>: Avoid low contrast between text and background colors, which can make content difficult to read for users with low vision.</li>
+        <li><strong>Placeholder-Only Labels</strong>: Avoid relying on placeholders as the sole form field label, as they disappear when users start typing and can confuse users with memory difficulties.</li>
+        <li><strong>Overloaded Interfaces</strong>: Avoid cluttered interfaces with too many options, which can overwhelm users with cognitive or attention-related conditions.</li>
+        <li><strong>Unnecessary CAPTCHA Challenges</strong>: Avoid overly complex CAPTCHA challenges that exclude users with cognitive or motor impairments; use accessible alternatives like reCAPTCHA v3.</li>
+    </ul>
+</section>
+
