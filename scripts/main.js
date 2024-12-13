@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+
     // Load Components
     loadComponent('components/header.html', 'header');
     loadComponent('components/footer.html', 'footer'); // Ensure <footer id="footer"></footer> exists
@@ -192,4 +193,5 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
 });
